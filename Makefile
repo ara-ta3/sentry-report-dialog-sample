@@ -6,14 +6,12 @@ NODE=node
 install:
 	$(YARN) install
 
-compile:
-	$(YARN) run tsc
+build:
+	$(YARN) run build
 
-run: compile
-	$(NODE) dist/main.js
+build/watch:
+	$(YARN) run watch
 
-compile/watch:
-	$(YARN) run tsc/watch
 
 test:
 	$(YARN) test
