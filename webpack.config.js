@@ -1,5 +1,6 @@
 module.exports = {
   mode: 'development',
+  devtool: 'cheap-module-source-map',
 
   entry: './src/main.tsx',
   module: {
