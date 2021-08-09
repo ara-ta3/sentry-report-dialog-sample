@@ -1,9 +1,11 @@
 import * as React from "react"
 
-export const SentryReport: React.FC<{}> = ( () => {
+export const SentryReport: React.FC<{
+    onClick: () => void
+}> = ( (props) => {
   return (
     <div>
-        <button>Click</button>
+        <button onClick={props.onClick}>Click</button>
     </div>
   )
 

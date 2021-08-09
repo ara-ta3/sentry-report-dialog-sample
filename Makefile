@@ -3,15 +3,17 @@ NODE=node
 
 .PHONY: test
 
-install:
+install: src/env.ts
 	$(YARN) install
 
-build:
+build: src/env.ts
 	$(YARN) run build
 
-build/watch:
+build/watch: src/env.ts
 	$(YARN) run watch
-
 
 test:
 	$(YARN) test
+
+src/env.ts:
+	cp -f ./env.ts.sample $@
