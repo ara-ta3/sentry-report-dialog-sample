@@ -17,7 +17,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@sentry/browser": "^6.10.0",
+    "@sentry/browser": "^6.11.0",
     "@types/jest": "^26.0.24",
     "jest": "^26.6.3",
     "prettier": "^2.3.2",
