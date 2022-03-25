@@ -25,7 +25,7 @@
     "@types/jest": "^27.4.1",
     "@types/react": "^17.0.42",
     "jest": "^26.6.3",
-    "prettier": "^2.6.0",
+    "prettier": "^2.6.1",
     "ts-jest": "^26.5.6",
     "ts-loader": "^9.2.8",
     "ts-node": "^9.1.1",
