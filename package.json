@@ -16,7 +16,7 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@sentry/browser": "^6.19.4",
+    "@sentry/browser": "^6.19.6",
     "@types/react-dom": "^18.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
